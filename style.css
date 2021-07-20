@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    margin:0 auto;
+    display:flex;
+}
+#container {
+    margin: auto
+}
+#heading {
+    display: flex;
+    align-items: center;
+}
+#turnInfo {
+    margin: 0 15px 0 auto;
+}
+#turnField {
+    min-width: 60px;
+    display: inline-block;
+    text-align: center;
+}
+.cell {
+    width: 110px;
+    height: 110px;
+    background: #ddd;
+    border:2px solid #fff;
+    display:inline-block;
+    text-align: center;
+    font-size: 60px;
+}
+.cell:not(:disabled) {  
+    cursor: pointer;
+}
